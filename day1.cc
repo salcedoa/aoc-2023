@@ -52,7 +52,7 @@ int main() {
     std::cout << addCalibrationValues(puzzle_input) << std::endl;
 
     // TASK 2
-    // Replace every word with the corresponding number
+    // Insert corresponding numbers into words
 
     // Create reference map
     std::map<std::string, std::string> number_ref;
