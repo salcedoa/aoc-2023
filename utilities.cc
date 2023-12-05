@@ -19,7 +19,7 @@ std::vector<std::string> string_input_to_vector(const std::string filename)
     // Convert file contents to vector
     std::vector<std::string> strings;
     std::string s;
-    while (file_input >> s)
+    while (std::getline(file_input, s))
     {
         strings.push_back(s);
     }
